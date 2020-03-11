@@ -1,0 +1,57 @@
+.navigation {
+    background-color: $color-grey-light-1;
+    grid-row: 2/ -1;
+    grid-column: 1 / 2;
+    position: relative;
+    z-index: 0;
+
+    .white-1 {
+        position: absolute;
+        width: 20rem;
+        height: 4.1rem;
+        background: $color-white;
+        top: 6rem;
+        left: 15.5rem;
+        z-index: -1;
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+
+    }
+
+    .white-2 {
+        position: absolute;
+        width: 20rem;
+        height: 4.1rem;
+        background: $color-white;
+        top: 2rem;
+        left: 15.5rem;
+        z-index: -1;
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+
+    }
+
+
+    .nav {
+        margin-top: 2rem;
+        margin-left: 16rem;
+        display: flex;
+        flex-direction: column;
+        cursor: pointer;
+
+
+        &__inbox {
+            width: 8rem;
+            display: flex;
+            align-items: center;
+            flex: 0 0 4rem;
+            justify-content: space-between;
+
+            &--1 {}
+
+            &--2 {
+                width: 8.4rem;
+            }
+        }
+    }
+}

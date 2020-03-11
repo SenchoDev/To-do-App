@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link type="text/css" rel="stylesheet" href="css/style.css">
+    <title>To-do App made by sencho</title>
+    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,600&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+</head>
+
+<body>
+    
+    <div class="container">
+        <div class="searchbar">
+            <div class="searchbar__logo">
+                <ion-icon name="list-circle-sharp"></ion-icon>
+            </div>
+            <form action="#" class="search" id="search-tasks">
+                <input type="text" placeholder="Quick search" class="search__input">
+               <button class="search__button"> 
+                    <ion-icon name="search-sharp" class="search__icon"></ion-icon>
+                </button>
+                
+            </form>
+            <div class="searchbar__list">
+                <div class="searchbar__plus">
+                    <ion-icon name="add-circle-sharp"></ion-icon>
+                </div>
+                <div class="searchbar__settings">
+                    <ion-icon name="settings-sharp" class="settings-sharp">
+                    </ion-icon>
+                    <div class="searchbar__nav">
+                        <span class="searchbar__arrow"></span>
+                        <ul class="searchbar__ul">
+                            <li class="searchbar__li"><a class="searchbar__a" href="homepage.html"><ion-icon name="settings-outline" class="searchbar__a--btn"></ion-icon>Settings</a></li>
+                            <li class="searchbar__li"><a class="searchbar__a"href="#"><ion-icon name="home-outline" class="searchbar__a--btn"></ion-icon>Homepage</a></li>
+
+                            <li class="searchbar__li"><a class="searchbar__a" href="#"><ion-icon name="newspaper-outline" class="searchbar__a--btn"></ion-icon>What's New</a></li>
+                            <li class="searchbar__li"><a class="searchbar__a" href="#"><ion-icon name="book-outline" class="searchbar__a--btn"></ion-icon>Templates</a></li>
+                            <li class="searchbar__line"></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="navigation">
+            <div class="white-1"></div>
+            <div class=""></div>
+            <div class="nav">
+                <div class="nav__inbox nav__inbox--1">
+                    <img src="img/albums-sharp.png" class="nav__img" alt="">
+                    <p class="text">Inbox</p>
+                </div>
+                <div class="nav__inbox nav__inbox--2">
+                    <img src="img/calendar.png" class="nav__img" alt="">
+                    <p class="text">Today</p>
+                </div>
+            </div>    
+
+        </div>
+        <div class="app">
+
+            
+            <div class="date">
+                <h4 class="date__today">Today</h4>
+                <p class=" date__real-date">%date%</p>
+            </div>
+
+           
+
+            <div class="add-task">
+                <svg xmlns="http://www.w3.org/2000/svg"class="add-task__img" width="18.496" height="18.496" viewBox="0 0 18.496 18.496"><defs><style>.a{fill:none;stroke:#ff1654;stroke-width:2px;}</style></defs><g transform="translate(-1350.973 180.058)"><path class="a" d="M1350.973-173.224h18.5" transform="translate(0 2.847)"/><path class="a" d="M1357.5-181.058v18.5" transform="translate(2.719 1)"/></g></svg>
+                <p class="add-task__text">Add Task</p>
+            </div> 
+            
+
+            
+
+        </div>
+        <div class="sideline">
+
+        </div>
+    </div>
+
+    <script src="globalUI.js"></script>
+    <script src="global.js"></script>
+</body>
+
+</html>
+
