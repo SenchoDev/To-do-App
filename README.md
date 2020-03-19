@@ -4,5 +4,3 @@
 - JS module pattern
 - SASS
 - CSS3 Animations and so on.
-
-![Img 1](file:///C:/Users/KorisnikXY/Desktop/github%20apps/To-do-App/img/todo2.png)
