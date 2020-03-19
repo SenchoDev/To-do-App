@@ -4,6 +4,9 @@
 - JS module pattern
 - SASS
 - CSS3 Animations and so on.
+<<<<<<< HEAD
 
 ### Images
 ![Img 1](file:///C:/Users/KorisnikXY/Desktop/github%20apps/To-do-App/img/todo2.png)
+=======
+>>>>>>> e7860899577c27ef8b663d5be975bf9fe8920bac
