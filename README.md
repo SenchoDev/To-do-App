@@ -7,6 +7,7 @@
 <<<<<<< HEAD
 
 ### Images
-![Img 1](file:///C:/Users/KorisnikXY/Desktop/github%20apps/To-do-App/img/todo2.png)
-=======
->>>>>>> e7860899577c27ef8b663d5be975bf9fe8920bac
+![](img/todo1.png)
+![](img/todo2.png)
+![](img/todo3.png)
+![](img/todo4.png)
